@@ -38,7 +38,7 @@ Develop the database diagrams for the travel agency:
 > **Note**: Integration with the interface is not required at this stage.
 
 ---
-
+ 
 ## Folder Structure
 ```plaintext
 ➜  tree
@@ -68,17 +68,13 @@ Develop the database diagrams for the travel agency:
 <table>
     <thead>
         <tr>
-            <th>Version</th>
-            <th>Preview</th>
+            <th>Desktop</th>
+            <th>Mobile</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Desktop Version</td>
             <td><img src="https://github.com/user-attachments/assets/6690fcfe-5820-448d-8b91-034d26ea9bef" alt="Desktop Version"></td>
-        </tr>
-        <tr>
-            <td>Mobile Version</td>
             <td><img src="https://github.com/user-attachments/assets/981f2d6f-3c1c-4f5d-9937-c95d0541bf2b" alt="Mobile Version"></td>
         </tr>
     </tbody>
