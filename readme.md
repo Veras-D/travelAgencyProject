@@ -151,4 +151,4 @@ CREATE INDEX idx_reservation_date ON RESERVATION(Reservation_Date);
 No ferget of add link video later
 
 ## Project Link
-> See the project in: 
+> See the project in: https://veras-d.github.io/travelAgencyProject/index.html
