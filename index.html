@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient pt-4">
+        <div class="container">
+            <!-- Logo with icon -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo.svg" alt="Globe Icon" width="30" height="30">
+                Dream Travel
+            </a>
+            <!-- Responsive button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pages/destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <header class="text-center py-5">
+        <div class="container">
+            <h1>Explore the world with Dream Travel</h1>
+            <p class="lead">Discover incredible destinations and create unforgettable memories.</p>
+            <a href="#packages" class="btn btn-custom btn-lg">Check out our packages</a>
+        </div>
+    </header>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-secondary">Popular Destinations</h2>
+            <div class="row row-gap-3">
+                <div class="col-md-4">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://mangojourneys.com/en/wp-content/uploads/2015/05/950x475-bigstock-Two-beach-lounge-chairs-under-68994418-400x300.jpg" class="card-img-top" alt="Beach">
+                        <div class="card-body">
+                            <h5 class="card-title">Tropical Beaches</h5>
+                            <p class="card-text">Enjoy a tropical paradise with crystal clear waters and white sands. Perfect to relax and reconnect with nature.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://alaska-highway.org/wp-content/uploads/2016/12/mthayes.jpg" class="card-img-top" alt="Mountains">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountains</h5>
+                            <p class="card-text">Explore incredible trails and live adventures in the mountains. Ideal for ecotourism and adrenaline lovers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://caminhodafe.com.br/ptbr/wp-content/uploads/2021/03/8-400x300.jpg" class="card-img-top" alt="Cities">
+                        <div class="card-body">
+                            <h5 class="card-title">Iconic Cities</h5>
+                            <p class="card-text">Immerse yourself in the culture and gastronomy of a modern city. Leisure, art, and fun await you!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-5 mb-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Special Packages</h2>
+            <div class="row row-gap-3">
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Romantic Package</h5>
+                            <p class="card-text">Perfect experiences for couples in stunning places.</p>
+                            <a href="#" class="btn btn-custom">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Family Package</h5>
+                            <p class="card-text">Guaranteed fun for the whole family in unique destinations.</p>
+                            <a href="#" class="btn btn-custom">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 text-center">
+        <div class="container">
+            <p>&copy; 2025 Dream Travel Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

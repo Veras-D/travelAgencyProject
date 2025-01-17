@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #4b0082, #6a0dad);
+    color: #fff;
+}
+.navbar-brand {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #fff !important;
+}
+.navbar {
+    background-color: #4b0082;
+}
+
+.navbar-dark.bg-gradient {
+    background: linear-gradient(135deg, #5a0092, #4b0082);
+}
+.nav-link {
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #d9a6ff !important;
+}
+
+.btn-custom {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #5a0092;
+}
+.destination-card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+.destino-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.destino-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.destino-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.team-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4b0082;
+    color: #ddd;
+}
