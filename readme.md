@@ -1,4 +1,8 @@
-# Travel Agency Project
+<p align="center">
+    <img src="./assets/favicon.svg" alt="Globe Icon" width="30" height="30">
+</p>
+
+# Travel Agency Project: Dream Travel
 
 This is the **first individual delivery** for the Fullstack Developer course offered by **Recode Pro AI**.
 
@@ -84,7 +88,7 @@ Develop the database diagrams for the travel agency:
 ![Conceptual Model](https://github.com/user-attachments/assets/3dba2121-b8a3-4cab-9079-f064db0da3ef)
 
 ### Logical Model
-<div style="text-align: display: flex; justify-content: center; align-items: center;">
+<div align="center">
     <img src="https://github.com/user-attachments/assets/c8d1e0b8-7368-4515-be22-5626ba53bcc3" alt="Logical Model">
 </div>
 
