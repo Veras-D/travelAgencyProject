@@ -84,7 +84,9 @@ Develop the database diagrams for the travel agency:
 ![Conceptual Model](https://github.com/user-attachments/assets/3dba2121-b8a3-4cab-9079-f064db0da3ef)
 
 ### Logical Model
-![Logical Model](https://github.com/user-attachments/assets/c8d1e0b8-7368-4515-be22-5626ba53bcc3)
+<div style="text-align: center">
+    <img src="https://github.com/user-attachments/assets/c8d1e0b8-7368-4515-be22-5626ba53bcc3" alt="Logical Model">
+</div>
 
 ### Physical Model
 ```mysql
